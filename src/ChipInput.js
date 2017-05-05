@@ -4,13 +4,13 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import TextFieldUnderline from 'material-ui/TextField/TextFieldUnderline'
-import TextFieldHint from 'material-ui/TextField/TextFieldHint'
-import TextFieldLabel from 'material-ui/TextField/TextFieldLabel'
-import AutoComplete from 'material-ui/AutoComplete/AutoComplete'
-import transitions from 'material-ui/styles/transitions'
-import Chip from 'material-ui/Chip'
-import {blue300} from 'material-ui/styles/colors'
+import TextFieldUnderline from 'old-material-ui/TextField/TextFieldUnderline'
+import TextFieldHint from 'old-material-ui/TextField/TextFieldHint'
+import TextFieldLabel from 'old-material-ui/TextField/TextFieldLabel'
+import AutoComplete from 'old-material-ui/AutoComplete/AutoComplete'
+import transitions from 'old-material-ui/styles/transitions'
+import Chip from 'old-material-ui/Chip'
+import {blue300} from 'old-material-ui/styles/colors'
 
 const getStyles = (props, context, state) => {
   const {
